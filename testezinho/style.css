@@ -3,58 +3,45 @@
     src: url(font/source-code.ttf);
 }
 
-*{
-    font-family: source;
-}
-
 body{
-    background-color: salmon;  
-    margin: auto; 
+    background-image: linear-gradient(to bottom, #FF974F, #A49A87); 
+    width: 99%;
+    height: 100%;
 }
 
 section{
-    text-align: justify;
-    width: 50%;
-    margin-left: 25%;
+    text-align: center;
 }
 
 figure{
     display: inline-block;
-    background-color: lavender;
+    background-color: #fff;
+    text-align: justify;
+    width: 500px;
+    font-family: source;
 }
 
 img{
-    width: 80%;
-    padding-top: 1%;
-    padding-left: 11%;
-}
-
-figcaption{
-    color: rgb(0, 0, 0);
+    width: 490px;
+    margin: 5px;
 }
 
 figcaption a{
-    color: rgb(17, 110, 217);
+    color: #F77A52;
 }
 
-div {
-    align-items: center;
-    width: 100%;
-    height: 5%;
-    background-color: black;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
+h1{
+    color: #332532;
     text-align: center;
+    text-shadow: 1px 1px 3px #0e0b0d93;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div h1{
-    color: cornflowerblue;
-    font-size: xx-large;
-}
-
-div h2{
-    color: crimson;
-    font-size: x-large;
+h2{
+    color: #332532;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(89, 66, 71, 0.605);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
